@@ -13,13 +13,14 @@ function que1() {
     let valid = false;
     if (document.getElementById("right1").checked) {
         valid = true;
+        score = score + 1;
     } else if (document.getElementById("wrong12").checked) {
         valid = true;
     } else if (document.getElementById("wrong13").checked) {
         valid = true;
     } else if (document.getElementById("wrong14").checked) {
         valid = true;
-        score = score + 1;
+        
 
     } else {
         if (valid) {} else { alert("Select One option to continue"); return false }
@@ -33,13 +34,15 @@ function que2() {
     let valid = false;
     if (document.getElementById("right2").checked) {
         valid = true;
+        score = score + 1;
+
     } else if (document.getElementById("wrong2").checked) {
         valid = true;
     } else if (document.getElementById("wrong3").checked) {
         valid = true;
     } else if (document.getElementById("wrong1").checked) {
         valid = true;
-        score = score + 1;
+       
     } else {
         if (valid) {} else { alert("Select One option to continue"); return false }
     }
@@ -58,9 +61,10 @@ function que3() {
         valid = true;
     } else if (document.getElementById("right3").checked) {
         valid = true;
+        score = score + 1;
     } else if (document.getElementById("wrong33").checked) {
         valid = true;
-        score = score + 1;
+        
 
     } else {
         if (valid) {} else { alert("Select One option to continue"); return false }
@@ -98,13 +102,14 @@ function que5() {
     let valid = false;
     if (document.getElementById("right5").checked) {
         valid = true;
+        score = score + 1;
     } else if (document.getElementById("wrong52").checked) {
         valid = true;
     } else if (document.getElementById("wrong53").checked) {
         valid = true;
     } else if (document.getElementById("wroung51").checked) {
         valid = true;
-        score = score + 1;
+        
 
     } else {
         if (valid) {} else { alert("Select One option to continue"); return false }

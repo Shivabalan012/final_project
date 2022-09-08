@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="welcome.css">
+    <title>Welcome ! to quizz</title>
+</head>
+<!---------------------------Question 1--------------------------------------->
+<div class="main" id="que1">
+
+    <div class="question">
+        <h2>Where is the world tallest building located ?</h2>
+    </div>
+    <div class="option">
+        <input type="checkbox" class="optionlist" id="right1" value="right"><label for="">DUBAI</label>
+        <input type="checkbox" class="optionlist" id="wrong12" value="wrong"><label for="">AFRICA</label>
+        <input type="checkbox" class="optionlist" id="wrong13" value="wrong"><label for="">ITALY</label>
+        <input type="checkbox" class="optionlist" id="wrong14" value="wrong"><label for="">INDIA</label>
+    </div>
+    <button onclick="que1()">Next</button>
+</div>
+
+
+<!---------------------------Question 2--------------------------------------->
+
+<div class="main" id="que2" style="display:none;">
+    <div class="question">
+        <h2>In which animal has the longest lifeline ?</h2>
+    </div>
+    <div class="option">
+        <input type="checkbox" id="right2" value="right"><label for="">GREENLAND SHARK</label>
+        <input type="checkbox" id="wrong2" value="wrong"><label for="">ELEPHANT</label>
+        <input type="checkbox" id="wrong1" value="wrong"><label for="">GERMAN SHEPHERD</label>
+        <input type="checkbox" id="wrong3" value="wrong"><label for="">CAMEL</label>
+    </div>
+    <button onclick="que2()">Next</button>
+</div>
+
+
+<!---------------------------Question 3--------------------------------------->
+<div class="main" style="display:none;" id="que3">
+    <div class="question">
+        <h2>What is the Distance Between Kanyakumari to Leh?</h2>
+    </div>
+    <div class="option">
+        <input type="checkbox" id="wrong31" value="wrong"><label for="">4500</label>
+        <input type="checkbox" id="wrong32" value="wrong"><label for="">5000</label>
+        <input type="checkbox" id="right3" value="rigth"><label for="">3840</label>
+        <input type="checkbox" id="wrong33" value="wrong"><label for="">1220</label>
+    </div>
+    <button onclick="que3()">Next</button>
+</div>
+
+
+
+<!---------------------------Question 4--------------------------------------->
+<div class="main" style="display:none;" id="que4">
+    <div class="question">
+        <h2>Who is founder of HTML ?</h2>
+    </div>
+    <div class="option">
+        <input type="checkbox" id="wrong41" value="wrong"><label for="">James Gosling </label>
+        <input type="checkbox" id="wrong42" value="wrong"><label for="">Hakon Wium Lie</label>
+        <input type="checkbox" id="right4" value="right"><label for=""> Tim Berners-Lee</label>
+        <input type="checkbox" id="wrong43" value="wrong"><label for="">Mark Zuckerberg</label>
+    </div>
+    <button onclick="que4()">Next</button>
+</div>
+
+
+
+<!---------------------------Question 5--------------------------------------->
+<div class="main" style="display: none;" id="que5">
+    <div class="question">
+        <h2>What is the national game of China?	</h2>
+    </div>
+    <div class="option">
+        <input type="checkbox" id="right5" value="wrong"><label for="">Table Tennis.
+        </label>
+        <input type="checkbox" id="wrong51" value="wrong"><label for="">Hockey</label>
+        <input type="checkbox" id="wrong52" value="wrong"><label for="""> Lawn Tennis</label>
+        <input type="checkbox" id="wrong53" value="wrong"><label for="">Cricket</label>
+    </div>
+    <button onclick="que5()">Next</button>
+</div>
+
+
+
+
+<!---------------------------Results Page--------------------------------------->
+<div class="main" style="display: none;" id="result">
+    <div class="result">
+        <h2 id="totQue">Total Questions : <span></span></h2>
+        <h2 id="chore">Score : <span></span></h2>
+    </div>
+    <div class="option">
+        <img src="minion-congrats.gif" alt="" id="s">
+        <br>
+        <button><a href="index2.html">Restart</a></button>
+    </div>
+</div>
+
+
+<body>
+
+
+    <script src="jquery-3.6.1.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
